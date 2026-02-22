@@ -1,0 +1,6 @@
+scrape_configs:
+  - job_name: 'spring-boot-app'
+    metrics_path: '/actuator/prometheus'
+    scrape_interval: 2s # Checks your app every 2 seconds
+    static_configs:
+      - targets: ['host.docker.internal:8080'] # Points to your local Spring Boot app
