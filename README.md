@@ -20,13 +20,6 @@ An enterprise-grade, event-driven backend system designed to handle massive traf
 * **Infrastructure:** Docker, Docker Compose
 * **Documentation:** OpenAPI / Swagger UI
 
-## 📸 System Proof & Observability
-
-*(Upload your Grafana screenshot here!)*
-> **Grafana Dashboard:** Simulating 200 concurrent requests. The blue line represents `202 Accepted` orders successfully sent to Kafka. The green spike represents `410 Gone` instantly blocking requests the exact millisecond inventory hit 0. 
-
-*(Upload your Swagger UI screenshot here!)*
-> **Swagger UI:** Testing the endpoint locally.
 
 ## 🚀 How to Run This Project Locally
 
