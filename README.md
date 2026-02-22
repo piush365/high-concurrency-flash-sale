@@ -34,11 +34,13 @@ An enterprise-grade, event-driven backend system designed to handle massive traf
 Make sure you have Docker Desktop installed. Run this command to spin up Postgres, Redis, Kafka, Prometheus, and Grafana:
 ```bash
 docker compose up -d
+```
 
 **2. Start the Spring Boot Application**
 Run FlashsaleApplication.java in your IDE or use Maven:
 ```bash
 ./mvnw spring-boot:run
+```
 
 **3. Access the UIs**
 
