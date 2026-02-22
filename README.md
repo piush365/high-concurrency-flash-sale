@@ -34,3 +34,16 @@ An enterprise-grade, event-driven backend system designed to handle massive traf
 Make sure you have Docker Desktop installed. Run this command to spin up Postgres, Redis, Kafka, Prometheus, and Grafana:
 ```bash
 docker compose up -d
+
+**2. Start the Spring Boot Application**
+Run FlashsaleApplication.java in your IDE or use Maven:
+```bash
+./mvnw spring-boot:run
+
+**3. Access the UIs**
+
+  *  Swagger UI (Test the API): http://localhost:8080/swagger-ui/index.html
+
+  *  Grafana Dashboard (Live Metrics): http://localhost:3000 (Login: admin / admin)
+
+  *  Prometheus: http://localhost:9090
